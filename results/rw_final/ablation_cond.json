@@ -1,0 +1,36 @@
+[
+  {
+    "signal_e": 2600,
+    "ser": 0.232061,
+    "ber": 0.133704,
+    "cells_per_s": 7234302.2,
+    "bits": 4,
+    "M": 16,
+    "use_encoder": true,
+    "cond": true,
+    "enc_flops_per_cell": 39168,
+    "dec_flops_per_cell": 344320,
+    "params": 43121,
+    "model_MB": 0.172,
+    "peak_mem_MB": 216.8,
+    "amp": "bf16",
+    "setting": "cond"
+  },
+  {
+    "signal_e": 2600,
+    "ser": 0.786348,
+    "ber": 0.39896,
+    "cells_per_s": 7220029.8,
+    "bits": 4,
+    "M": 16,
+    "use_encoder": true,
+    "cond": false,
+    "enc_flops_per_cell": 39168,
+    "dec_flops_per_cell": 344320,
+    "params": 43121,
+    "model_MB": 0.172,
+    "peak_mem_MB": 217.5,
+    "amp": "bf16",
+    "setting": "no_cond"
+  }
+]

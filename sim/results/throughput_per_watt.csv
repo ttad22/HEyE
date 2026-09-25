@@ -1,0 +1,7 @@
+pixel_rate_x,read_MBps,power_W,MBps_per_W,nvme_MBps_per_W,beats_nvme_tpw
+1,346.8,88.0,3.94,875.0,False
+4,757.1,88.0,8.6,875.0,False
+16,1075.0,88.0,12.22,875.0,False
+64,1201.1,88.0,13.65,875.0,False
+256,1237.4,88.0,14.06,875.0,False
+1024,1242.8,88.0,14.12,875.0,False

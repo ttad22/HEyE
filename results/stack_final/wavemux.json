@@ -1,0 +1,73 @@
+{
+  "mux": [
+    {
+      "N": 2,
+      "mux": true,
+      "channels": 2,
+      "mean_ber": 0.049099,
+      "per_layer": [
+        0.000351,
+        0.097847
+      ]
+    },
+    {
+      "N": 3,
+      "mux": true,
+      "channels": 3,
+      "mean_ber": 0.132528,
+      "per_layer": [
+        0.002983,
+        0.137802,
+        0.256798
+      ]
+    },
+    {
+      "N": 4,
+      "mux": true,
+      "channels": 4,
+      "mean_ber": 0.178133,
+      "per_layer": [
+        0.000938,
+        0.163918,
+        0.268044,
+        0.279633
+      ]
+    }
+  ],
+  "single": [
+    {
+      "N": 2,
+      "mux": false,
+      "channels": 1,
+      "mean_ber": 0.189765,
+      "per_layer": [
+        0.135284,
+        0.244247
+      ]
+    },
+    {
+      "N": 3,
+      "mux": false,
+      "channels": 1,
+      "mean_ber": 0.296458,
+      "per_layer": [
+        0.130798,
+        0.336609,
+        0.421967
+      ]
+    },
+    {
+      "N": 4,
+      "mux": false,
+      "channels": 1,
+      "mean_ber": 0.422585,
+      "per_layer": [
+        0.256493,
+        0.460587,
+        0.485916,
+        0.487343
+      ]
+    }
+  ],
+  "minutes": 13.3
+}

@@ -1,0 +1,6 @@
+workload,slo_p99_ms,cache_hit_rate,batched_only_viable,batched_only_p99_ms,batched_cache_viable,glass_facing_p99_ms,glass_facing_ops_s,min_writers,min_readers,fleet_cost_usd
+archival,,0.0,n/a (archival),3269348.1,n/a (archival),3269348.1,2.0,4,2,120000.0
+bulk_ingest,60000,0.0,no (SLO unmet at 1024 drives),158706.1,no,158706.1,20.0,,,
+warm_read,5000,0.7,no (SLO unmet at 1024 drives),101847.4,no,15059.7,74.0,,,
+cdn_read,1000,0.95,no (SLO unmet at 1024 drives),14984.0,no,15031.2,47.6,,,
+active_rw,200,0.5,no (SLO unmet at 1024 drives),14664.2,no,14795.0,280.0,,,

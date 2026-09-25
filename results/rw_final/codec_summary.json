@@ -1,0 +1,928 @@
+{
+  "gpu": {
+    "torch": "2.5.1+cu124",
+    "cuda": "12.4",
+    "gpus": 2,
+    "names": [
+      "NVIDIA GeForce GTX 1080 Ti",
+      "NVIDIA GeForce GTX 1080 Ti"
+    ],
+    "vram_GB": [
+      11.7,
+      11.7
+    ],
+    "bf16": true
+  },
+  "runs": [
+    {
+      "signal_e": 1200,
+      "ser": 0.000586,
+      "ber": 0.00042,
+      "cells_per_s": 3512095.0,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343552,
+      "params": 42341,
+      "model_MB": 0.169,
+      "peak_mem_MB": 220.9,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 2000,
+      "ser": 0.000137,
+      "ber": 7.8e-05,
+      "cells_per_s": 7265110.8,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343552,
+      "params": 42341,
+      "model_MB": 0.169,
+      "peak_mem_MB": 220.9,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 3500,
+      "ser": 4.9e-05,
+      "ber": 2.9e-05,
+      "cells_per_s": 7275892.4,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343552,
+      "params": 42341,
+      "model_MB": 0.169,
+      "peak_mem_MB": 220.9,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 6000,
+      "ser": 5.9e-05,
+      "ber": 3.9e-05,
+      "cells_per_s": 7272213.9,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343552,
+      "params": 42341,
+      "model_MB": 0.169,
+      "peak_mem_MB": 220.9,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 9000,
+      "ser": 3.9e-05,
+      "ber": 2e-05,
+      "cells_per_s": 7273835.4,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343552,
+      "params": 42341,
+      "model_MB": 0.169,
+      "peak_mem_MB": 220.9,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 14000,
+      "ser": 2.9e-05,
+      "ber": 1.5e-05,
+      "cells_per_s": 7277785.0,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343552,
+      "params": 42341,
+      "model_MB": 0.169,
+      "peak_mem_MB": 220.9,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 1200,
+      "ser": 0.06666,
+      "ber": 0.029235,
+      "cells_per_s": 7196270.0,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343808,
+      "params": 42601,
+      "model_MB": 0.17,
+      "peak_mem_MB": 215.2,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 2000,
+      "ser": 0.022744,
+      "ber": 0.010033,
+      "cells_per_s": 7268356.5,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343808,
+      "params": 42601,
+      "model_MB": 0.17,
+      "peak_mem_MB": 215.2,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 3500,
+      "ser": 0.008984,
+      "ber": 0.00389,
+      "cells_per_s": 7267587.8,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343808,
+      "params": 42601,
+      "model_MB": 0.17,
+      "peak_mem_MB": 215.2,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 6000,
+      "ser": 0.004219,
+      "ber": 0.001706,
+      "cells_per_s": 7273251.1,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343808,
+      "params": 42601,
+      "model_MB": 0.17,
+      "peak_mem_MB": 215.2,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 9000,
+      "ser": 0.003047,
+      "ber": 0.001224,
+      "cells_per_s": 7264674.7,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343808,
+      "params": 42601,
+      "model_MB": 0.17,
+      "peak_mem_MB": 215.2,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 14000,
+      "ser": 0.00291,
+      "ber": 0.001185,
+      "cells_per_s": 7212272.8,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 343808,
+      "params": 42601,
+      "model_MB": 0.17,
+      "peak_mem_MB": 215.2,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 1200,
+      "ser": 0.354268,
+      "ber": 0.158933,
+      "cells_per_s": 4225076.8,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 344320,
+      "params": 43121,
+      "model_MB": 0.172,
+      "peak_mem_MB": 221.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 2000,
+      "ser": 0.266084,
+      "ber": 0.116128,
+      "cells_per_s": 7240724.1,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 344320,
+      "params": 43121,
+      "model_MB": 0.172,
+      "peak_mem_MB": 221.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 3500,
+      "ser": 0.199346,
+      "ber": 0.083704,
+      "cells_per_s": 7253709.5,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 344320,
+      "params": 43121,
+      "model_MB": 0.172,
+      "peak_mem_MB": 221.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 6000,
+      "ser": 0.156807,
+      "ber": 0.062949,
+      "cells_per_s": 7228638.7,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 344320,
+      "params": 43121,
+      "model_MB": 0.172,
+      "peak_mem_MB": 221.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 9000,
+      "ser": 0.141787,
+      "ber": 0.055955,
+      "cells_per_s": 7223487.0,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 344320,
+      "params": 43121,
+      "model_MB": 0.172,
+      "peak_mem_MB": 221.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 14000,
+      "ser": 0.210518,
+      "ber": 0.087546,
+      "cells_per_s": 7225711.9,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": true,
+      "cond": true,
+      "enc_flops_per_cell": 39168,
+      "dec_flops_per_cell": 344320,
+      "params": 43121,
+      "model_MB": 0.172,
+      "peak_mem_MB": 221.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 1200,
+      "ser": 0.00125,
+      "ber": 0.000796,
+      "cells_per_s": 7862841.9,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343552,
+      "params": 22436,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.0,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 2000,
+      "ser": 0.000459,
+      "ber": 0.000273,
+      "cells_per_s": 7988731.5,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343552,
+      "params": 22436,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.0,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 3500,
+      "ser": 0.000107,
+      "ber": 7.8e-05,
+      "cells_per_s": 8008478.4,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343552,
+      "params": 22436,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.0,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 6000,
+      "ser": 5.9e-05,
+      "ber": 3.4e-05,
+      "cells_per_s": 7976581.3,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343552,
+      "params": 22436,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.0,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 9000,
+      "ser": 3.9e-05,
+      "ber": 2.4e-05,
+      "cells_per_s": 7976972.1,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343552,
+      "params": 22436,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.0,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 14000,
+      "ser": 7.8e-05,
+      "ber": 4.9e-05,
+      "cells_per_s": 7976652.1,
+      "bits": 2,
+      "M": 4,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343552,
+      "params": 22436,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.0,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 1200,
+      "ser": 0.084941,
+      "ber": 0.044294,
+      "cells_per_s": 7851564.3,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343808,
+      "params": 22568,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 2000,
+      "ser": 0.042549,
+      "ber": 0.022295,
+      "cells_per_s": 7982601.0,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343808,
+      "params": 22568,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 3500,
+      "ser": 0.018867,
+      "ber": 0.009795,
+      "cells_per_s": 7981988.1,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343808,
+      "params": 22568,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 6000,
+      "ser": 0.009766,
+      "ber": 0.005007,
+      "cells_per_s": 7967568.9,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343808,
+      "params": 22568,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 9000,
+      "ser": 0.007334,
+      "ber": 0.003724,
+      "cells_per_s": 7959049.4,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343808,
+      "params": 22568,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 14000,
+      "ser": 0.007793,
+      "ber": 0.00388,
+      "cells_per_s": 7957520.5,
+      "bits": 3,
+      "M": 8,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 343808,
+      "params": 22568,
+      "model_MB": 0.09,
+      "peak_mem_MB": 199.3,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 1200,
+      "ser": 0.393477,
+      "ber": 0.169519,
+      "cells_per_s": 7819324.1,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 344320,
+      "params": 22832,
+      "model_MB": 0.091,
+      "peak_mem_MB": 199.6,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 2000,
+      "ser": 0.318145,
+      "ber": 0.137666,
+      "cells_per_s": 7973794.9,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 344320,
+      "params": 22832,
+      "model_MB": 0.091,
+      "peak_mem_MB": 199.6,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 3500,
+      "ser": 0.250469,
+      "ber": 0.108335,
+      "cells_per_s": 7989010.7,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 344320,
+      "params": 22832,
+      "model_MB": 0.091,
+      "peak_mem_MB": 199.6,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 6000,
+      "ser": 0.20501,
+      "ber": 0.087607,
+      "cells_per_s": 7981904.2,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 344320,
+      "params": 22832,
+      "model_MB": 0.091,
+      "peak_mem_MB": 199.6,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 9000,
+      "ser": 0.172773,
+      "ber": 0.073704,
+      "cells_per_s": 7952570.4,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 344320,
+      "params": 22832,
+      "model_MB": 0.091,
+      "peak_mem_MB": 199.6,
+      "amp": "bf16"
+    },
+    {
+      "signal_e": 14000,
+      "ser": 0.166953,
+      "ber": 0.071956,
+      "cells_per_s": 7945477.3,
+      "bits": 4,
+      "M": 16,
+      "use_encoder": false,
+      "cond": true,
+      "enc_flops_per_cell": 0,
+      "dec_flops_per_cell": 344320,
+      "params": 22832,
+      "model_MB": 0.091,
+      "peak_mem_MB": 199.6,
+      "amp": "bf16"
+    }
+  ],
+  "histories": {
+    "learned": [
+      {
+        "step": 0,
+        "loss": 2.0843684673309326
+      },
+      {
+        "step": 50,
+        "loss": 1.481817603111267
+      },
+      {
+        "step": 100,
+        "loss": 1.2701079845428467
+      },
+      {
+        "step": 150,
+        "loss": 1.0727781057357788
+      },
+      {
+        "step": 200,
+        "loss": 1.0008131265640259
+      },
+      {
+        "step": 250,
+        "loss": 0.8611876368522644
+      },
+      {
+        "step": 300,
+        "loss": 1.153466820716858
+      },
+      {
+        "step": 350,
+        "loss": 0.5839170217514038
+      },
+      {
+        "step": 400,
+        "loss": 0.4597072899341583
+      },
+      {
+        "step": 450,
+        "loss": 0.4731338918209076
+      },
+      {
+        "step": 500,
+        "loss": 1.0388175249099731
+      },
+      {
+        "step": 550,
+        "loss": 0.3648236095905304
+      },
+      {
+        "step": 600,
+        "loss": 0.26138564944267273
+      },
+      {
+        "step": 650,
+        "loss": 0.4151327311992645
+      },
+      {
+        "step": 700,
+        "loss": 0.2836703062057495
+      },
+      {
+        "step": 750,
+        "loss": 0.13786645233631134
+      },
+      {
+        "step": 800,
+        "loss": 0.31849026679992676
+      },
+      {
+        "step": 850,
+        "loss": 0.1155640184879303
+      },
+      {
+        "step": 900,
+        "loss": 0.40777140855789185
+      },
+      {
+        "step": 950,
+        "loss": 0.44039469957351685
+      },
+      {
+        "step": 1000,
+        "loss": 0.3482954204082489
+      },
+      {
+        "step": 1050,
+        "loss": 0.049068816006183624
+      },
+      {
+        "step": 1100,
+        "loss": 0.05504728853702545
+      },
+      {
+        "step": 1150,
+        "loss": 0.0690041333436966
+      },
+      {
+        "step": 1200,
+        "loss": 0.035470422357320786
+      },
+      {
+        "step": 1250,
+        "loss": 0.252673864364624
+      },
+      {
+        "step": 1300,
+        "loss": 0.16769975423812866
+      },
+      {
+        "step": 1350,
+        "loss": 0.022588582709431648
+      },
+      {
+        "step": 1400,
+        "loss": 0.02464902400970459
+      },
+      {
+        "step": 1450,
+        "loss": 0.04247286915779114
+      },
+      {
+        "step": 1500,
+        "loss": 0.04487346112728119
+      },
+      {
+        "step": 1550,
+        "loss": 0.03875831142067909
+      },
+      {
+        "step": 1600,
+        "loss": 0.017940932884812355
+      },
+      {
+        "step": 1650,
+        "loss": 0.01967966929078102
+      },
+      {
+        "step": 1700,
+        "loss": 0.05833089351654053
+      },
+      {
+        "step": 1750,
+        "loss": 0.021057231351733208
+      },
+      {
+        "step": 1800,
+        "loss": 0.012751588597893715
+      },
+      {
+        "step": 1850,
+        "loss": 0.012221644632518291
+      },
+      {
+        "step": 1900,
+        "loss": 0.019344093278050423
+      },
+      {
+        "step": 1950,
+        "loss": 0.01272482518106699
+      },
+      {
+        "step": 1999,
+        "loss": 0.04735642299056053
+      }
+    ],
+    "identity": [
+      {
+        "step": 0,
+        "loss": 2.0840682983398438
+      },
+      {
+        "step": 50,
+        "loss": 1.4269500970840454
+      },
+      {
+        "step": 100,
+        "loss": 1.0588852167129517
+      },
+      {
+        "step": 150,
+        "loss": 0.8773756623268127
+      },
+      {
+        "step": 200,
+        "loss": 0.7261983752250671
+      },
+      {
+        "step": 250,
+        "loss": 0.6752946972846985
+      },
+      {
+        "step": 300,
+        "loss": 0.9183869361877441
+      },
+      {
+        "step": 350,
+        "loss": 0.5970742702484131
+      },
+      {
+        "step": 400,
+        "loss": 0.63263338804245
+      },
+      {
+        "step": 450,
+        "loss": 0.6656864881515503
+      },
+      {
+        "step": 500,
+        "loss": 0.37561196088790894
+      },
+      {
+        "step": 550,
+        "loss": 0.23986485600471497
+      },
+      {
+        "step": 600,
+        "loss": 0.32596856355667114
+      },
+      {
+        "step": 650,
+        "loss": 0.34478190541267395
+      },
+      {
+        "step": 700,
+        "loss": 0.31428664922714233
+      },
+      {
+        "step": 750,
+        "loss": 0.17540931701660156
+      },
+      {
+        "step": 800,
+        "loss": 0.31544122099876404
+      },
+      {
+        "step": 850,
+        "loss": 0.15976181626319885
+      },
+      {
+        "step": 900,
+        "loss": 0.11766666173934937
+      },
+      {
+        "step": 950,
+        "loss": 0.45812490582466125
+      },
+      {
+        "step": 1000,
+        "loss": 0.10526269674301147
+      },
+      {
+        "step": 1050,
+        "loss": 0.12063317745923996
+      },
+      {
+        "step": 1100,
+        "loss": 0.06949851661920547
+      },
+      {
+        "step": 1150,
+        "loss": 0.05918789654970169
+      },
+      {
+        "step": 1200,
+        "loss": 0.07288198173046112
+      },
+      {
+        "step": 1250,
+        "loss": 0.050001468509435654
+      },
+      {
+        "step": 1300,
+        "loss": 0.18045207858085632
+      },
+      {
+        "step": 1350,
+        "loss": 0.1139533594250679
+      },
+      {
+        "step": 1400,
+        "loss": 0.07834005355834961
+      },
+      {
+        "step": 1450,
+        "loss": 0.08822933584451675
+      },
+      {
+        "step": 1500,
+        "loss": 0.08644591271877289
+      },
+      {
+        "step": 1550,
+        "loss": 0.12316401302814484
+      },
+      {
+        "step": 1600,
+        "loss": 0.05355748534202576
+      },
+      {
+        "step": 1650,
+        "loss": 0.06410196423530579
+      },
+      {
+        "step": 1700,
+        "loss": 0.031085999682545662
+      },
+      {
+        "step": 1750,
+        "loss": 0.07963678240776062
+      },
+      {
+        "step": 1800,
+        "loss": 0.14766845107078552
+      },
+      {
+        "step": 1850,
+        "loss": 0.15376566350460052
+      },
+      {
+        "step": 1900,
+        "loss": 0.06498006731271744
+      },
+      {
+        "step": 1950,
+        "loss": 0.0754590779542923
+      },
+      {
+        "step": 1999,
+        "loss": 0.04624100774526596
+      }
+    ]
+  }
+}

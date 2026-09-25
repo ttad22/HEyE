@@ -1,0 +1,117 @@
+{
+  "overlay": [
+    {
+      "N": 1,
+      "mode": "overlay",
+      "per_layer_ber": [
+        0.0
+      ],
+      "mean_ber": 0.0,
+      "eff_bits": 512.0
+    },
+    {
+      "N": 2,
+      "mode": "overlay",
+      "per_layer_ber": [
+        0.12215,
+        0.22313
+      ],
+      "mean_ber": 0.17264,
+      "eff_bits": 847.2
+    },
+    {
+      "N": 3,
+      "mode": "overlay",
+      "per_layer_ber": [
+        0.10974,
+        0.33314,
+        0.42603
+      ],
+      "mean_ber": 0.28964,
+      "eff_bits": 1091.1
+    },
+    {
+      "N": 4,
+      "mode": "overlay",
+      "per_layer_ber": [
+        0.13638,
+        0.35987,
+        0.43085,
+        0.43803
+      ],
+      "mean_ber": 0.34128,
+      "eff_bits": 1349.1
+    },
+    {
+      "N": 5,
+      "mode": "overlay",
+      "per_layer_ber": [
+        0.1357,
+        0.37156,
+        0.43804,
+        0.44372,
+        0.45337
+      ],
+      "mean_ber": 0.36848,
+      "eff_bits": 1616.7
+    }
+  ],
+  "focal": [
+    {
+      "N": 1,
+      "mode": "focal",
+      "per_layer_ber": [
+        0.0
+      ],
+      "mean_ber": 0.0,
+      "eff_bits": 512.0
+    },
+    {
+      "N": 2,
+      "mode": "focal",
+      "per_layer_ber": [
+        0.00149,
+        0.00237
+      ],
+      "mean_ber": 0.00193,
+      "eff_bits": 1022.0
+    },
+    {
+      "N": 3,
+      "mode": "focal",
+      "per_layer_ber": [
+        6e-05,
+        0.00022,
+        0.00032
+      ],
+      "mean_ber": 0.0002,
+      "eff_bits": 1535.7
+    },
+    {
+      "N": 4,
+      "mode": "focal",
+      "per_layer_ber": [
+        0.00023,
+        0.00065,
+        0.00131,
+        0.0018
+      ],
+      "mean_ber": 0.001,
+      "eff_bits": 2046.0
+    },
+    {
+      "N": 5,
+      "mode": "focal",
+      "per_layer_ber": [
+        0.03226,
+        0.03323,
+        0.03359,
+        0.03606,
+        0.03605
+      ],
+      "mean_ber": 0.03424,
+      "eff_bits": 2472.4
+    }
+  ],
+  "minutes": 24.4
+}

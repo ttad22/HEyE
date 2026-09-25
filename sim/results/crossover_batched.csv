@@ -1,0 +1,6 @@
+policy,workload,slo_p99_ms,offered_ops,viable_beyond_archival,min_writers,min_readers,fleet_cost_usd,throughput_MBps,p50_ms,p99_ms,read_p99_ms,write_p99_ms
+batched,archival,,2.0,n/a (archival),4,2,120000.0,591.94,2097674.6,3907576.3,2864.3,3907576.3
+batched,bulk_ingest,60000,20.0,no (SLO unmet at 1024 drives),,,,2615.4,76634.6,278639.7,75143.7,278821.8
+batched,warm_read,5000,200.0,no (SLO unmet at 1024 drives),,,,793.49,8.5,86506.1,1013.7,107909.2
+batched,cdn_read,1000,800.0,no (SLO unmet at 1024 drives),,,,396.88,1.9,1485.9,752.3,107484.7
+batched,active_rw,200,400.0,no (SLO unmet at 1024 drives),,,,398.13,4.6,1334.5,985.9,1558.0

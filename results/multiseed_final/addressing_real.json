@@ -1,0 +1,70 @@
+{
+  "bits": 2,
+  "steps": 1500,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "runs": [
+    {
+      "seed": 1,
+      "whole_platter_ber": 0.028748,
+      "whole_platter_byte_acc": 0.8716,
+      "addressing_recovery_TAUTOLOGICAL_original_code": 1.0,
+      "addressing_recovery_FROM_CAMERA_IMAGE_corrected": 0.0156
+    },
+    {
+      "seed": 2,
+      "whole_platter_ber": 0.010559,
+      "whole_platter_byte_acc": 0.9404,
+      "addressing_recovery_TAUTOLOGICAL_original_code": 1.0,
+      "addressing_recovery_FROM_CAMERA_IMAGE_corrected": 0.1094
+    },
+    {
+      "seed": 3,
+      "whole_platter_ber": 0.008728,
+      "whole_platter_byte_acc": 0.9363,
+      "addressing_recovery_TAUTOLOGICAL_original_code": 1.0,
+      "addressing_recovery_FROM_CAMERA_IMAGE_corrected": 0.125
+    },
+    {
+      "seed": 4,
+      "whole_platter_ber": 0.013519,
+      "whole_platter_byte_acc": 0.9434,
+      "addressing_recovery_TAUTOLOGICAL_original_code": 1.0,
+      "addressing_recovery_FROM_CAMERA_IMAGE_corrected": 0.0781
+    },
+    {
+      "seed": 5,
+      "whole_platter_ber": 0.011932,
+      "whole_platter_byte_acc": 0.9536,
+      "addressing_recovery_TAUTOLOGICAL_original_code": 1.0,
+      "addressing_recovery_FROM_CAMERA_IMAGE_corrected": 0.0625
+    }
+  ],
+  "note": "addressing_recovery_TAUTOLOGICAL_original_code reproduces the committed metric (real_platter.py:118-120): it self-matches the enrolled ground-truth tensor against a permutation of itself and never touches the simulated camera image, so it is 1.0 by construction. addressing_recovery_FROM_CAMERA_IMAGE_corrected matches the actual simulated camera-observed block (post blur, shot noise, read noise, ADC quantization) against the enrolled reference database, which is what the paper's claim describes.",
+  "summary": {
+    "addressing_recovery_TAUTOLOGICAL_original_code": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "ci95_halfwidth": 0.0,
+      "n": 5
+    },
+    "addressing_recovery_FROM_CAMERA_IMAGE_corrected": {
+      "mean": 0.07812,
+      "sd": 0.042804520789281125,
+      "ci95_halfwidth": 0.053140311880816055,
+      "n": 5
+    },
+    "whole_platter_ber": {
+      "mean": 0.014697199999999999,
+      "sd": 0.008050085633084904,
+      "ci95_halfwidth": 0.009993899086391166,
+      "n": 5
+    }
+  },
+  "minutes": 61.8
+}

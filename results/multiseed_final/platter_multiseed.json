@@ -1,0 +1,136 @@
+{
+  "bits": 2,
+  "steps": 1500,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "runs": [
+    {
+      "T": 8,
+      "n": 16,
+      "blocks": 64,
+      "platter_cells": 16384,
+      "payload_bytes": 4096,
+      "signal_e": 6000,
+      "whole_platter_ber": 0.028717,
+      "whole_platter_byte_acc": 0.8682,
+      "per_block_ser_mean": 0.0499,
+      "per_block_ser_max": 0.0898,
+      "block_addressing_recovery": 1.0,
+      "seed": 1
+    },
+    {
+      "T": 8,
+      "n": 16,
+      "blocks": 64,
+      "platter_cells": 16384,
+      "payload_bytes": 4096,
+      "signal_e": 6000,
+      "whole_platter_ber": 0.011047,
+      "whole_platter_byte_acc": 0.939,
+      "per_block_ser_mean": 0.017,
+      "per_block_ser_max": 0.0352,
+      "block_addressing_recovery": 1.0,
+      "seed": 2
+    },
+    {
+      "T": 8,
+      "n": 16,
+      "blocks": 64,
+      "platter_cells": 16384,
+      "payload_bytes": 4096,
+      "signal_e": 6000,
+      "whole_platter_ber": 0.007935,
+      "whole_platter_byte_acc": 0.9502,
+      "per_block_ser_mean": 0.0136,
+      "per_block_ser_max": 0.0352,
+      "block_addressing_recovery": 1.0,
+      "seed": 3
+    },
+    {
+      "T": 8,
+      "n": 16,
+      "blocks": 64,
+      "platter_cells": 16384,
+      "payload_bytes": 4096,
+      "signal_e": 6000,
+      "whole_platter_ber": 0.012665,
+      "whole_platter_byte_acc": 0.9485,
+      "per_block_ser_mean": 0.0141,
+      "per_block_ser_max": 0.0391,
+      "block_addressing_recovery": 1.0,
+      "seed": 4
+    },
+    {
+      "T": 8,
+      "n": 16,
+      "blocks": 64,
+      "platter_cells": 16384,
+      "payload_bytes": 4096,
+      "signal_e": 6000,
+      "whole_platter_ber": 0.011993,
+      "whole_platter_byte_acc": 0.9539,
+      "per_block_ser_mean": 0.0129,
+      "per_block_ser_max": 0.0352,
+      "block_addressing_recovery": 1.0,
+      "seed": 5
+    }
+  ],
+  "summary": {
+    "whole_platter_ber": {
+      "mean": 0.0144714,
+      "sd": 0.008166910480714233,
+      "ci95_halfwidth": 0.01013893303897325,
+      "lo": 0.004332466961026751,
+      "hi": 0.02461033303897325,
+      "min": 0.007935,
+      "max": 0.028717,
+      "n": 5
+    },
+    "whole_platter_byte_acc": {
+      "mean": 0.9319599999999999,
+      "sd": 0.03606428981693666,
+      "ci95_halfwidth": 0.04477255143368089,
+      "lo": 0.887187448566319,
+      "hi": 0.9767325514336808,
+      "min": 0.8682,
+      "max": 0.9539,
+      "n": 5
+    },
+    "per_block_ser_mean": {
+      "mean": 0.0215,
+      "sd": 0.01595258599726076,
+      "ci95_halfwidth": 0.01980457623560777,
+      "lo": 0.001695423764392228,
+      "hi": 0.041304576235607765,
+      "min": 0.0129,
+      "max": 0.0499,
+      "n": 5
+    },
+    "per_block_ser_max": {
+      "mean": 0.046900000000000004,
+      "sd": 0.02404121461157901,
+      "ci95_halfwidth": 0.029846325081925917,
+      "lo": 0.017053674918074087,
+      "hi": 0.07674632508192591,
+      "min": 0.0352,
+      "max": 0.0898,
+      "n": 5
+    },
+    "block_addressing_recovery": {
+      "mean": 1.0,
+      "sd": 0.0,
+      "ci95_halfwidth": 0.0,
+      "lo": 1.0,
+      "hi": 1.0,
+      "min": 1.0,
+      "max": 1.0,
+      "n": 5
+    }
+  },
+  "minutes": 65.9
+}

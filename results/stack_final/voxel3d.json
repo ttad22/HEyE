@@ -1,0 +1,9 @@
+{
+  "N": 4,
+  "n": 16,
+  "bits": 2,
+  "voxels": 1024,
+  "reconstruction_accuracy": 0.998,
+  "signal_e": 14000,
+  "minutes": 4.3
+}

@@ -1,0 +1,87 @@
+{
+  "N1": {
+    "N": 1,
+    "bits": 2,
+    "per_snr": {
+      "2600": {
+        "per_layer_ber": [
+          0.0
+        ],
+        "mean_ber": 0.0
+      },
+      "6000": {
+        "per_layer_ber": [
+          0.0
+        ],
+        "mean_ber": 0.0
+      },
+      "14000": {
+        "per_layer_ber": [
+          0.0
+        ],
+        "mean_ber": 0.0
+      }
+    },
+    "effective_bits_at_14000": 512.0
+  },
+  "N2": {
+    "N": 2,
+    "bits": 2,
+    "per_snr": {
+      "2600": {
+        "per_layer_ber": [
+          0.00016,
+          0.00038
+        ],
+        "mean_ber": 0.00027
+      },
+      "6000": {
+        "per_layer_ber": [
+          2e-05,
+          9e-05
+        ],
+        "mean_ber": 6e-05
+      },
+      "14000": {
+        "per_layer_ber": [
+          2e-05,
+          0.00011
+        ],
+        "mean_ber": 7e-05
+      }
+    },
+    "effective_bits_at_14000": 1023.9
+  },
+  "N3": {
+    "N": 3,
+    "bits": 2,
+    "per_snr": {
+      "2600": {
+        "per_layer_ber": [
+          0.00209,
+          0.00521,
+          0.00782
+        ],
+        "mean_ber": 0.00504
+      },
+      "6000": {
+        "per_layer_ber": [
+          0.00085,
+          0.00149,
+          0.00278
+        ],
+        "mean_ber": 0.00171
+      },
+      "14000": {
+        "per_layer_ber": [
+          0.00039,
+          0.001,
+          0.0013
+        ],
+        "mean_ber": 0.0009
+      }
+    },
+    "effective_bits_at_14000": 1534.6
+  },
+  "minutes": 7.3
+}

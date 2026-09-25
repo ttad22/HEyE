@@ -1,0 +1,4 @@
+torch>=2.5.0
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.8

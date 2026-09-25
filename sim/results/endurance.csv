@@ -1,0 +1,4 @@
+contrast_decay_per_cycle,cycles_to_ecc_waterfall
+0.0005,4111
+0.001,2055
+0.005,411

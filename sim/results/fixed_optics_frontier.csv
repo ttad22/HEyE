@@ -1,0 +1,6 @@
+feature_um,capacity_TB,pixels_across_needed_Mpx,info_gigapixels,frames_whole_platter,read_whole_platter_s,read_throughput_MBps,random_block_latency_ms,energy_per_bit_pJ
+25.0,0.0,0.0096,27.7,301,6.4,270.7,17.47,40628.7
+10.0,0.01,0.024,173.4,1354,31.2,346.8,17.47,31716.67
+5.0,0.04,0.048,693.5,5418,125.0,346.8,17.47,31716.67
+1.0,1.08,0.24,17337.6,135450,3124.4,346.8,17.47,31716.67
+0.5,4.33,0.48,69350.4,541800,12497.5,346.8,17.47,31716.67

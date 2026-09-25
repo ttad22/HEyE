@@ -1,0 +1,17 @@
+[
+  {
+    "tag": "quick",
+    "bits": 3,
+    "M": 8,
+    "sigma_px": 1.7,
+    "signal_e": 1800,
+    "n_voxels": 4900,
+    "baseline_ser": 0.62245,
+    "baseline_ber": 0.31395,
+    "cnn_ser": 0.37041,
+    "cnn_ber": 0.18401,
+    "cnn_params": 127768,
+    "infer_voxels_per_s": 70395.6,
+    "device": "cpu"
+  }
+]

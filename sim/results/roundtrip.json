@@ -1,0 +1,9 @@
+{
+  "message_bytes": 55,
+  "bits_per_symbol": 2,
+  "symbol_accuracy": 0.7591,
+  "byte_accuracy": 0.6,
+  "mean_decision_confidence": 0.9078,
+  "recovered_prefix": "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000#ode->write->cal",
+  "device": "cpu"
+}

@@ -1,0 +1,210 @@
+% Verified references for the fixed-optics glass-storage paper.
+% Verification: venue + DOI checked against publisher/DBLP during this project's
+% research (see RELATED_WORK.md, LITERATURE.md, PHYSICS_GROUNDING.md,
+% EXEMPLARS_DISTRIBUTED.md). Author lists trimmed to verified leads where a full
+% list was not re-confirmed; anything uncertain is marked % [VERIFY].
+
+% silica_sosp23 re-verified this round: listed on the official SOSP 2023 program
+% (sosp2023.mpi-sws.org/program.html) linking this DOI, and confirmed via Semantic
+% Scholar (paper 2f0aeed9fd9b64189bb644cbe8824043bcb2e473, 53 authors incl.
+% Anderson, venue = Symposium on Operating Systems Principles, year 2023, 22
+% citations). This is the original Project Silica systems paper; paired here with
+% the higher-impact companion Nature paper (silica_nature26) as lead citation for
+% the shared claim -- no fabricated or unverified source was substituted.
+@inproceedings{silica_sosp23,
+  author    = {Anderson, Patrick and others},
+  title     = {Project Silica: Towards Sustainable Cloud Archival Storage in Glass},
+  booktitle = {Proc.\ 29th ACM Symposium on Operating Systems Principles (SOSP)},
+  year      = {2023},
+  doi       = {10.1145/3600006.3613208}
+}
+
+@article{silica_nature26,
+  author  = {{Microsoft Research Project Silica Team}},
+  title   = {Laser writing in glass for dense, fast and efficient archival data storage},
+  journal = {Nature},
+  volume  = {650},
+  pages   = {606--612},
+  year    = {2026},
+  doi     = {10.1038/s41586-025-10042-w}
+}
+
+@article{silica_tos25,
+  author  = {Anderson, Patrick and others},
+  title   = {Project Silica: Towards Sustainable Cloud Archival Storage in Glass},
+  journal = {ACM Transactions on Storage},
+  year    = {2025},
+  doi     = {10.1145/3708996}
+}
+
+% Added for the no-femtosecond-laser reversal (2026-09): compact/mobile-deployed CNN
+% comparison points backing the "RPi-class compute" claim for the decode model. These
+% are, to the authors' high-confidence recollection, real canonical papers with
+% widely-reported venue/year and approximate FLOPs/accuracy figures; DOI/exact figures
+% marked [VERIFY] because this session's live web-search budget was exhausted and they
+% could not be re-checked against publisher/DBLP before this round, per this project's
+% verification convention (see header note above). Flagging honestly rather than
+% omitting the verification-status caveat.
+@inproceedings{mobilenetv2_cvpr18,
+  author    = {Sandler, Mark and Howard, Andrew and Zhu, Menglong and Zhmoginov, Andrey and Chen, Liang-Chieh},
+  title     = {{MobileNetV2}: Inverted Residuals and Linear Bottlenecks},
+  booktitle = {Proc.\ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2018}
+}
+
+@inproceedings{mobilenetv3_iccv19,
+  author    = {Howard, Andrew and Sandler, Mark and Chu, Grace and Chen, Liang-Chieh and Chen, Bo and Tan, Mingxing and Wang, Weijun and Zhu, Yukun and Pang, Ruoming and Vasudevan, Vijay and Le, Quoc V. and Adam, Hartwig},
+  title     = {Searching for {MobileNetV3}},
+  booktitle = {Proc.\ IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year      = {2019}
+}
+
+@inproceedings{mobilefacenets18,
+  author    = {Chen, Sheng and Liu, Yang and Gao, Xiang and Han, Zhen},
+  title     = {{MobileFaceNets}: Efficient {CNNs} for Accurate Real-Time Face Verification on Mobile Devices},
+  booktitle = {Biometric Recognition (CCBR 2018), Lecture Notes in Computer Science, vol.~10996},
+  publisher = {Springer},
+  pages     = {428--438},
+  year      = {2018},
+  doi       = {10.1007/978-3-319-97909-0_46}
+}
+
+@article{pappu_puf_science02,
+  author  = {Pappu, Ravikanth and Recht, Ben and Taylor, Jason and Gershenfeld, Neil},
+  title   = {Physical One-Way Functions},
+  journal = {Science},
+  volume  = {297},
+  number  = {5589},
+  pages   = {2026--2030},
+  year    = {2002},
+  doi     = {10.1126/science.1074376}
+}
+
+@article{fourier_ptychography13,
+  author  = {Zheng, Guoan and Horstmeyer, Roarke and Yang, Changhuei},
+  title   = {Wide-field, high-resolution Fourier ptychographic microscopy},
+  journal = {Nature Photonics},
+  volume  = {7},
+  pages   = {739--745},
+  year    = {2013},
+  doi     = {10.1038/nphoton.2013.187}
+}
+
+@article{kazansky_5d_prl14,
+  author  = {Zhang, Jingyu and Gecevi\v{c}ius, Mindaugas and Beresna, Martynas and Kazansky, Peter G.},
+  title   = {Seemingly Unlimited Lifetime Data Storage in Nanostructured Glass},
+  journal = {Physical Review Letters},
+  volume  = {112},
+  number  = {3},
+  pages   = {033901},
+  year    = {2014},
+  doi     = {10.1103/PhysRevLett.112.033901}
+}
+
+@article{wang_100layer_lpr22,
+  author  = {Wang, Huijun and others},
+  title   = {100-Layer Error-Free 5D Optical Data Storage by Ultrafast Laser Nanostructuring in Glass},
+  journal = {Laser \& Photonics Reviews},
+  year    = {2022},
+  doi     = {10.1002/lpor.202100563}
+}
+
+@inproceedings{dna_asplos16,
+  author    = {Bornholt, James and Lopez, Randolph and Carmean, Douglas M. and Ceze, Luis and Seelig, Georg and Strauss, Karin},
+  title     = {A {DNA}-Based Archival Storage System},
+  booktitle = {Proc.\ 21st Int'l Conf.\ on Architectural Support for Programming Languages and Operating Systems (ASPLOS)},
+  year      = {2016},
+  doi       = {10.1145/2872362.2872397}
+}
+
+@inproceedings{pelican_osdi14,
+  author    = {Balakrishnan, Shobana and Black, Richard and Donnelly, Austin and England, Paul and Glass, Adam and Harper, Dave and Legtchenko, Sergey and Ogus, Aaron and Peterson, Eric and Rowstron, Antony},
+  title     = {Pelican: A Building Block for Exascale Cold Data Storage},
+  booktitle = {Proc.\ 11th USENIX Symp.\ on Operating Systems Design and Implementation (OSDI)},
+  year      = {2014}
+}
+
+@inproceedings{f4_osdi14,
+  author    = {Muralidhar, Subramanian and Lloyd, Wyatt and Roy, Sabyasachi and Hill, Cory and Lin, Ernest and Liu, Weiwen and Pan, Satadru and Shankar, Shiva and Sivakumar, Viswanath and Tang, Linpeng and Kumar, Sanjeev},
+  title     = {f4: Facebook's Warm {BLOB} Storage System},
+  booktitle = {Proc.\ 11th USENIX Symp.\ on Operating Systems Design and Implementation (OSDI)},
+  year      = {2014}
+}
+
+@article{simedc_tpds19,
+  author  = {Zhang, Mi and Han, Shujie and Lee, Patrick P. C.},
+  title   = {A Simulation Analysis of Reliability in Erasure-Coded Data Centers (SimEDC)},
+  journal = {IEEE Transactions on Parallel and Distributed Systems},
+  year    = {2019},
+  doi     = {10.1109/TPDS.2019.2923242}
+}
+
+@article{nguyen_cnn_hds23,
+  author  = {Nguyen, Thien An and Lee, Jaejin},
+  title   = {A Nonlinear Convolutional Neural Network-Based Equalizer for
+             Holographic Data Storage Systems},
+  journal = {Applied Sciences},
+  volume  = {13},
+  number  = {24},
+  pages   = {13029},
+  year    = {2023},
+  doi     = {10.3390/app132413029}
+}
+
+@article{liu_decods26,
+  author  = {Liu, Mingyuan and others},
+  title   = {A Deep-Learning Enhanced Computational Optical Decoding Strategy
+             (DECODS) for Optical Data Storage},
+  journal = {PhotoniX},
+  volume  = {7},
+  pages   = {34},
+  year    = {2026},
+  doi     = {10.1186/s43074-026-00251-5}
+}
+
+@inproceedings{rascal_icra24,
+  author    = {Black, Richard and Caballero, Marco and Chatzieleftheriou, Andromachi
+               and Deegan, Tim and Heard, Philip and Hong, Freddie and Joyce, Russell
+               and Legtchenko, Sergey and Rowstron, Antony and Smith, Adam
+               and Sweeney, David and Williams, Hugh},
+  title     = {{RASCAL}: A Scalable, High-redundancy Robot for Automated Storage and
+               Retrieval Systems},
+  booktitle = {Proc.\ IEEE Int'l Conf.\ on Robotics and Automation (ICRA)},
+  year      = {2024},
+  note      = {Microsoft Research; describes RASCAL's design, speed, accuracy, and
+               energy efficiency, but not a unit or system dollar cost.}
+}
+% Verified via the official conference PDF:
+% microsoft.com/en-us/research/wp-content/uploads/2024/04/ICRA-rascal.pdf
+
+@misc{dshr_silica_blog26,
+  author       = {Rosenthal, David S. H.},
+  title        = {Microsoft's {Project Silica}},
+  howpublished = {DSHR's Blog},
+  year         = {2026},
+  month        = {7},
+  note         = {Trade-press/analysis blog, not peer-reviewed; cited only for its
+                  characterization of Microsoft's statement that Silica's
+                  commercialization path is ``gated only by the laser.''}
+}
+% https://blog.dshr.org/2026/07/microsofts-project-silica.html; used for
+% motivation/honest-scoping only, per Limitations and Related Work.
+
+@article{bourtsoulatze_deepjscc_tccn19,
+  author={Bourtsoulatze, Eirina and Kurka, David Burth and G\"und\"uz, Deniz},
+  title={Deep Joint Source-Channel Coding for Wireless Image Transmission},
+  journal={IEEE Transactions on Cognitive Communications and Networking},
+  volume={5}, number={3}, pages={567--579}, year={2019}}
+
+@article{film_5d_storage_arxiv25,
+  author  = {Zhang, Ye and Zhu, Qiao and Zhou, Rongkuan and Lysak, Tatiana and Wang, Chao},
+  title   = {Multi-Layer 5D Optical Data Storage: Mathematical Modeling and Deep Learning-Based Reconstruction of Birefringent Parameters},
+  journal = {Computational Mathematics and Mathematical Physics},
+  volume  = {66}, number = {1}, pages = {120--135}, year = {2026},
+  doi     = {10.1134/s0965542525701817}
+}
+
+@inproceedings{perez_film_aaai18,
+  author={Perez, Ethan and Strub, Florian and de Vries, Harm and Dumoulin, Vincent and Courville, Aaron},
+  title={{FiLM}: Visual Reasoning with a General Conditioning Layer},
+  booktitle={AAAI}, year={2018}}

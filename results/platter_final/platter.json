@@ -1,0 +1,29 @@
+{
+  "2bit": {
+    "T": 8,
+    "n": 16,
+    "blocks": 64,
+    "platter_cells": 16384,
+    "payload_bytes": 4096,
+    "signal_e": 6000,
+    "whole_platter_ber": 0.00647,
+    "whole_platter_byte_acc": 0.9512,
+    "per_block_ser_mean": 0.0129,
+    "per_block_ser_max": 0.0312,
+    "block_addressing_recovery": 1.0
+  },
+  "3bit": {
+    "T": 8,
+    "n": 16,
+    "blocks": 64,
+    "platter_cells": 16384,
+    "payload_bytes": 6144,
+    "signal_e": 6000,
+    "whole_platter_ber": 0.055562,
+    "whole_platter_byte_acc": 0.7796,
+    "per_block_ser_mean": 0.0997,
+    "per_block_ser_max": 0.1484,
+    "block_addressing_recovery": 1.0
+  },
+  "minutes": 9.0
+}

@@ -1,0 +1,5 @@
+policy,verify_fail_rate
+Mode C (write-once),0.080687
+Mode B (1 retry),0.00875
+Mode B (2 retries),0.0005
+Mode B (3 retries),6.3e-05

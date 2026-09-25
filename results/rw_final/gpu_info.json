@@ -1,0 +1,14 @@
+{
+  "torch": "2.5.1+cu124",
+  "cuda": "12.4",
+  "gpus": 2,
+  "names": [
+    "NVIDIA GeForce GTX 1080 Ti",
+    "NVIDIA GeForce GTX 1080 Ti"
+  ],
+  "vram_GB": [
+    11.7,
+    11.7
+  ],
+  "bf16": true
+}
